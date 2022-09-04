@@ -67,7 +67,7 @@ fun SecondScreen(viewModel : MyViewModel) {
                Button(onClick = {
                    viewModel.changeLiveDataValue()
                }){
-                   Text(text = "Live Data Button")
+                   Text(text = "Live Data Button For Step1x")
                }
 
                Spacer(modifier = Modifier.padding(10.dp))
@@ -77,7 +77,7 @@ fun SecondScreen(viewModel : MyViewModel) {
                Button(onClick = {
                    viewModel.changeStateFlowValue()
                }){
-                   Text(text = "State Flow Button")
+                   Text(text = "State Flow Button For Step1x")
                }
 
                Spacer(modifier = Modifier.padding(10.dp))
@@ -87,7 +87,7 @@ fun SecondScreen(viewModel : MyViewModel) {
                Button(onClick = {
                    viewModel.changeSharedFlowValue()
                }){
-                   Text(text = "Shared Flow Button")
+                   Text(text = "Shared Flow Button For Step1x")
                }
            }
         }
